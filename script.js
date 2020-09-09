@@ -40,9 +40,10 @@
   always_down_to_chat_about.push('')
   const marquee = document.getElementById('marquee');
   const text = always_down_to_chat_about.join(' • ');
-  const marquee_text = document.getElementById('marquee_text');
-  marquee_text.innerHTML = text;
   marquee.classList.add('marquee')
   marquee.style = `--tw: ${text.length}ch; --ad: 40s`;
+
+  const marquee_text = document.getElementById('marquee_text');
+  marquee_text.innerHTML = text;
 
 })()
