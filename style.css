@@ -53,6 +53,7 @@ footer span {
    
     will-change: transform;
     animation: marquee var(--ad) linear infinite;
+    transform: translateZ(0);
     animation-play-state: running;
 }
 
