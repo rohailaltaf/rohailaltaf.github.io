@@ -28,7 +28,9 @@
     'data viz',
     'building a tech career',
     'pop culture',
-    'startup life'
+    'startup life',
+    'tech interviews',
+    'nyc'
 
   ];
 
