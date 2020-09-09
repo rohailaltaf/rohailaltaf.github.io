@@ -46,8 +46,7 @@ footer span {
     animation: marquee var(--ad) linear infinite;
     transform: translateZ(0);
     animation-play-state: running;
-    perspective: 1000;
-    backface-visibility: hidden;
+    line-height: 1.5;
 }
 
 @keyframes marquee {
