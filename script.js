@@ -30,15 +30,17 @@
     'pop culture',
     'startup life',
     'tech interviews',
-    'nyc'
-
+    'nyc',
+    'web development',
+    'mobile development',
+    'debugging'
   ];
 
   shuffle(always_down_to_chat_about)
   always_down_to_chat_about.push('')
   const marquee = document.getElementById('marquee');
   const text = always_down_to_chat_about.join(' • ');
-  marquee.style = `--tw: ${text.length}ch; --ad: 15s`;
+  marquee.style = `--tw: ${text.length}ch; --ad: 20s`;
 
   const marquee_text = document.getElementById('marquee_text');
   marquee_text.innerHTML = text;
