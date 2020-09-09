@@ -55,10 +55,8 @@ footer span {
     animation: marquee var(--ad) linear infinite;
     transform: translateZ(0);
     animation-play-state: running;
-    -webkit-perspective: 1000;
--webkit-backface-visibility: hidden;
-perspective: 1000;
-backface-visibility: hidden;
+    perspective: 1000;
+    backface-visibility: hidden;
 }
 
 @keyframes marquee {
