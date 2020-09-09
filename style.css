@@ -1,10 +1,11 @@
 :root {
+  background: white;
   color-scheme: light only;
 }
 body {
   font-family: 'Source Code Pro', monospace;
   padding: 0 1em;
-  background-color: white;
+  background: white;
 }
 a {
   color: unset;
