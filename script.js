@@ -33,7 +33,8 @@
     'nyc',
     'web development',
     'mobile development',
-    'debugging'
+    'debugging',
+    'random numbers'
   ];
 
   shuffle(always_down_to_chat_about)
