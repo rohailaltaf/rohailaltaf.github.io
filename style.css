@@ -1,6 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
   font-family: 'Source Code Pro', monospace;
   padding: 0 1em;
 }
@@ -11,8 +9,7 @@ header h1 {
   font-weight: 500;
 }
 nav {
-  display: flex;
-  flex-direction: column;
+  padding: 20px 0;
 }
 nav ul {
   list-style: none;
@@ -20,11 +17,6 @@ nav ul {
 }
 nav ul li {
   font-weight: 400;
-}
-footer {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
 }
 footer h3 {
   font-weight: 400;
