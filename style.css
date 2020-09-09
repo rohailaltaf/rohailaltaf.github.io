@@ -1,7 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   font-family: 'Source Code Pro', monospace;
   padding: 0 1em;
 }
