@@ -23,7 +23,13 @@
     'robinhood',
     'systems design',
     'mvp development',
-    'prototyping ideas'
+    'prototyping ideas',
+    'automation',
+    'data viz',
+    'building a tech career',
+    'pop culture',
+    'startup life'
+
   ];
 
   shuffle(always_down_to_chat_about)
