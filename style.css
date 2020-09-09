@@ -1,6 +1,7 @@
 body {
   font-family: 'Source Code Pro', monospace;
   padding: 0 1em;
+  background-color: white;
 }
 a {
   color: unset;
